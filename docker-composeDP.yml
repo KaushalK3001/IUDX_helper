@@ -2,6 +2,6 @@ services:
   image-classifier:
     image: kaushalkirpekar/dp_docker2:latest # Replace with your image name and tag
     volumes:
-      - /tmp/DPinput/inputdata:/app/inputdata
+      - /tmp/DPinput/inputdata:/app/data
       - /tmp/DPinput/config:/app/config
       - /tmp/DPoutput:/app/pipelineOutput
