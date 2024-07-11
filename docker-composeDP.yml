@@ -1,6 +1,6 @@
 services:
   image-classifier:
-    image: kaushalkirpekar/yoloapp_final:latest  # Replace with your image name and tag
+    image: kaushalkirpekar/DP_docker1:latest  # Replace with your image name and tag
     volumes:
       - /tmp/DPinput/inputdata:/app/input
       - /tmp/DPoutput:/app/output
