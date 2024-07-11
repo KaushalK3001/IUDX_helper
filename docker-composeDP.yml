@@ -2,5 +2,5 @@ services:
   image-classifier:
     image: kaushalkirpekar/yoloapp_final:latest  # Replace with your image name and tag
     volumes:
-      - /tmp/inputdata:/app/input
-      - /tmp/output:/app/output
+      - /tmp/DPinput/inputdata:/app/input
+      - /tmp/DPoutput:/app/output
