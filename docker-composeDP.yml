@@ -1,6 +1,6 @@
 services:
   image-classifier:
-    image: kaushalkirpekar/dp_docker5:latest # Replace with your image name and tag
+    image: kaushalkirpekar/dp_docker6:latest # Replace with your image name and tag
     volumes:
       - /tmp/DPinput/inputdata:/app/inputdata
       - /tmp/DPinput/config:/app/configTesting
