@@ -1,6 +1,6 @@
 services:
   image-classifier:
-    image: kaushalkirpekar/dp_docker9:latest # Replace with your image name and tag
+    image: ghcr.io/datakaveri/differential-privacy:1.0.1 # image name and tag
     volumes:
       - /tmp/DPinput/inputdata:/app/data
       - /tmp/DPinput/config:/app/config
