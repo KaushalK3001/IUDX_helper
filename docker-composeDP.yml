@@ -1,5 +1,5 @@
 services:
-  image-classifier:
+  anon-pipeline-app:
     image: ghcr.io/datakaveri/differential-privacy:1.0.1 # image name and tag
     volumes:
       - /tmp/DPinput/inputdata:/app/data
