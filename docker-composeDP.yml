@@ -1,6 +1,6 @@
 services:
   anon-pipeline-app:
-    image: ghcr.io/datakaveri/differential-privacy:1.0.1 # image name and tag
+    image: ghcr.io/datakaveri/differential-privacy:1.0.2 # image name and tag
     volumes:
       - /tmp/DPinput/inputdata:/app/data
       - /tmp/DPinput/config:/app/config
