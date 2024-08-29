@@ -1,0 +1,6 @@
+services:
+  farmer-credit-app:
+    image: ghcr.io/datakaveri/farmer-credit-app:1.0 # image name and tag
+    volumes:
+      - /tmp/FCcontext:/app/UIcontext
+      - /tmp/FCoutput:/app/finalOutput
