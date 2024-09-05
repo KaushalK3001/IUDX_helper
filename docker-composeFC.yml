@@ -6,3 +6,5 @@ services:
       - /tmp/FCcontext:/app/UIcontext
       - /tmp/FCoutput:/app/outputFolder
       - /tmp/FCinput:/app/data
+
+      
